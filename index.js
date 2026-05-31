@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 // 1. CONEXIÓN A LA BASE DE DATOS
-const uri = "mongodb+srv://daymer_admin:daymer190803@cluster...mongodb.net/VestaDB?retryWrites=true&w=majority";
+const uri = "mongodb+srv://daymer_admin:daymer190803@delivery.0qio1rt.mongodb.net/VestaDB?retryWrites=true&w=majority&appName=delivery";
 
 mongoose.connect(uri)
   .then(() => console.log('¡Conectado a MongoDB Atlas!'))
